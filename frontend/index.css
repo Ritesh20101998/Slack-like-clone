@@ -57,7 +57,12 @@ body{
     height: 50px;
     font-size: larger;
 }
-
+#sign_buttons  p{
+    font-size: 20px;
+    padding: 5px;
+    background-color: #fff;
+    color : #000;
+}
 
 #sign_buttons>button:hover{
     cursor: pointer;
@@ -68,6 +73,7 @@ body{
 
 
 @media screen and (max-width: 767px){
+
     #home{
         display: grid;
             /* border:1px solid red; */

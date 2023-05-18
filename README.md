@@ -142,5 +142,16 @@ POST  /socket_api/channel
 <div/>
  
 
+| `Authors` |
+| :-------: | 
 
+ [@Ritesh Kothawade]() 
+ 
+ [@Sahil Malaviya]()
+ 
+ [@Manojaya Rabha]()
+ 
+ [@Mrinali Bind]()
+ 
+ [@Sohel Rana Haldar]()
 
