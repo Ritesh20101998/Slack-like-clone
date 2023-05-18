@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
-
-
 body{
     margin: 0%;
     padding: 0%;
@@ -37,8 +35,6 @@ body{
 #homeleft>h1{
     color: white;
     font-size: 60px;
-    
-
 }
 
 .yelloclr{
@@ -49,7 +45,6 @@ body{
     color: white;
     font-size: x-large;
     margin-top: -40px;
-    
 }
 
 #sign_buttons{
@@ -73,11 +68,6 @@ body{
 
 
 @media screen and (max-width: 767px){
-
-
-
-
-
     #home{
         display: grid;
             /* border:1px solid red; */
