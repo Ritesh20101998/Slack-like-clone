@@ -1,1 +1,2 @@
 Slack like clone project 
+Slack is a communication platform and collaboration hub that includes instant messaging, voice and video calls, and tools to help groups share information and work together1234. It was designed for professional and organizational communications, but has also been adopted as a community platform2. Slack can integrate with other software and runs on various operating systems2. There is a free version, but the full version starts at $6.67 per person per month5.
