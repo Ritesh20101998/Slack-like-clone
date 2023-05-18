@@ -31,11 +31,11 @@ document.getElementById('message').innerHTML = 'not matching';
 
 function myFunction() {
 var x = document.querySelector(".myInput");
-if (x.type === "password") {
-x.type = "text";
-} else {
-x.type = "password";
-}
+    if (x.type === "password") {
+        x.type = "text";
+    } else {
+        x.type = "password";
+    }
 }
 
 
@@ -69,7 +69,7 @@ otp_inputs.forEach(
     Body={Name,email,mobile,password}
     console.log(Body)
     if (regex.test(Body.email)) {
-        fetch('https://nice-cyan-chiton-vest.cyclic.app/mail/sendotp', {
+        fetch('https://nice-cyan-chiton-vest.cyclic.app/mail/signup', {
             method: "POST",
             body: JSON.stringify(Body),
             headers: { 'Content-Type': 'application/json' }
