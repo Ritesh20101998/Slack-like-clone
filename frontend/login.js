@@ -6,10 +6,11 @@ function login(event) {
     let password = document.querySelector("#password").value;
     const Body = { email, password }
     login_data(Body)
+    console.log(Body)
 }
 
 async function login_data(Body){
-    let res = await fetch('https://nice-cyan-chiton-vest.cyclic.app/cred/login', {
+    let res = await fetch('https://nice-cyan-chiton-vest.cyclic.app/user/login', {
         method: "POST",
         body: JSON.stringify(Body),
         headers: { 'Content-Type': 'application/json' }

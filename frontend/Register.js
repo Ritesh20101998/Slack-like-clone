@@ -65,11 +65,11 @@ otp_inputs.forEach(
     let Name=nameEle.value;
     let mobile=mobileEle.value;
     let password=passwordEle.value;
-    let conform = confirm.value;
+    // let conform = conform.value;
     Body={Name,email,mobile,password}
     console.log(Body)
     if (regex.test(Body.email)) {
-        fetch('https://nice-cyan-chiton-vest.cyclic.app/mail/signup', {
+        fetch('https://nice-cyan-chiton-vest.cyclic.app/user/signup', {
             method: "POST",
             body: JSON.stringify(Body),
             headers: { 'Content-Type': 'application/json' }
@@ -137,7 +137,7 @@ otp_inputs.forEach(
                     verfEle.style.display = 'none';
                     successEle.style.display = 'block';
                     errorEle.style.display = 'none';
-                    window.location.href="login.html"
+                    window.location.href="./chat.html"
                 }
                 else {
                     errorEle.style.display = 'block';
